@@ -272,6 +272,73 @@ class Methods(tk.Frame):
             cursor.execute("DELETE FROM MSE")
             connectdb.commit()
 
+        def BFOD():
+            connectdb = sqlite3.connect("results.db")
+            cursor = connectdb.cursor()
+
+            img1 = cv2.imread("1.png")
+            img11 = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
+            imageA = cv2.resize(img11, (450, 237))
+            database = os.listdir("db")
+
+            for image in database:
+                img2 = cv2.imread("db/" + image)
+
+                imgprocess = cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY)
+
+                imageB = cv2.resize(imgprocess, (450, 237))
+
+                matcheslist = ""
+
+                # Initiate ORB detector
+                orb = cv2.ORB_create()
+                # find the keypoints and descriptors with ORB
+                kp1, des1 = orb.detectAndCompute(imageA, None)
+                kp2, des2 = orb.detectAndCompute(imageB, None)
+
+                # create BFMatcher object
+                bf = cv2.BFMatcher(cv2.NORM_HAMMING, crossCheck=True)
+                # Match descriptors.
+                matches = bf.match(des1, des2)
+                amount = len(matches)
+
+                print('Comparing input image to ' + image + " using BFOD")
+                print(amount)
+                print(matches)
+
+                cursor.execute("INSERT INTO BFOD (percentage, filename, list) VALUES (?, ?, ?);", (amount, image, str(matches)))
+                connectdb.commit()
+
+            percentages = list(connectdb.cursor().execute("SELECT * FROM BFOD order by percentage desc limit 10"))
+            print(percentages[0])
+
+            highest = percentages[0]
+            highestperct = round(highest[0], 2)
+            print(highestperct)
+
+            for root, dirs, files in os.walk("db"):
+                if highest[1] in files:
+                    path = os.path.join(root, highest[1])
+
+            print(path)
+
+            img3 = cv2.imread(path)
+            img3process = cv2.cvtColor(img3, cv2.COLOR_BGR2GRAY)
+            imageC = cv2.resize(img3process, (450, 237))
+
+            # Sort them in the order of their distance.
+            sortedmatches = sorted(matches, key=lambda x: x.distance)
+            # Draw first 10 matches.
+            drawing = cv2.drawMatches(imageA, kp1, imageC, kp2, sortedmatches[:100], None, flags=cv2.DrawMatchesFlags_NOT_DRAW_SINGLE_POINTS)
+
+            plt.suptitle("Amount of matches : " + str(highestperct))
+
+            # show the images
+            plt.imshow(drawing), plt.axis("off"), plt.show(drawing)
+
+            cursor.execute("DELETE FROM BFOD")
+            connectdb.commit()
+
 
         def goback():
             controller.show_frame("Home")
@@ -284,6 +351,9 @@ class Methods(tk.Frame):
         methodmse = tk.Button(self, text="MSE (Mean squared error)", command=MSE)
         methodmse.pack()
 
+        methodbfod = tk.Button(self, text="BFOD (Brute-Force Matching with ORB Descriptors)", command=BFOD)
+        methodbfod.pack()
+
         label4 = tk.Label(self, text="      ")
         label4.pack()
 
@@ -292,6 +362,9 @@ class Methods(tk.Frame):
 
         label6 = tk.Label(self, text="      ")
         label6.pack()
+
+        label7 = tk.Label(self, text="      ")
+        label7.pack()
 
         back = tk.Button(self, text="Go back", command=goback)
         back.pack()
