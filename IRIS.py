@@ -339,6 +339,77 @@ class Methods(tk.Frame):
             cursor.execute("DELETE FROM BFOD")
             connectdb.commit()
 
+        def BFSIFT():
+            connectdb = sqlite3.connect("results.db")
+            cursor = connectdb.cursor()
+
+            img1 = cv2.imread("1.png")
+            img11 = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
+            imageA = cv2.resize(img11, (450, 237))
+            database = os.listdir("db")
+
+            for image in database:
+                img2 = cv2.imread("db/" + image)
+
+                imgprocess = cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY)
+
+                imageB = cv2.resize(imgprocess, (450, 237))
+
+                matcheslist = ""
+
+                # Initiate SIFT detector
+                sift = cv2.xfeatures2d.SIFT_create()
+                # find the keypoints and descriptors with SIFT
+                kp1, des1 = sift.detectAndCompute(imageA, None)
+                kp2, des2 = sift.detectAndCompute(imageB, None)
+
+                # BFMatcher with default params
+                bf = cv2.BFMatcher()
+                matches = bf.knnMatch(des1, des2, k=2)
+                # Apply ratio test
+                good = []
+                for m, n in matches:
+                    if m.distance < 0.75 * n.distance:
+                        good.append([m])
+                # cv.drawMatchesKnn expects list of lists as matches.
+                amount = len(good)
+
+                print('Comparing input image to ' + image + " using BFSIFT")
+                print(amount)
+                print(matches)
+
+                cursor.execute("INSERT INTO BFSIFT (percentage, filename, list) VALUES (?, ?, ?);", (amount, image, str(good)))
+                connectdb.commit()
+
+            '''percentages = list(connectdb.cursor().execute("SELECT * FROM BFOD order by percentage desc limit 10"))
+            print(percentages[0])
+
+            highest = percentages[0]
+            highestperct = round(highest[0], 2)
+            print(highestperct)
+
+            for root, dirs, files in os.walk("db"):
+                if highest[1] in files:
+                    path = os.path.join(root, highest[1])
+
+            print(path)
+
+            img3 = cv2.imread(path)
+            img3process = cv2.cvtColor(img3, cv2.COLOR_BGR2GRAY)
+            imageC = cv2.resize(img3process, (450, 237))
+
+            # Sort them in the order of their distance.
+            sortedmatches = sorted(matches, key=lambda x: x.distance)
+            # Draw first 10 matches.
+            drawing = cv2.drawMatches(imageA, kp1, imageC, kp2, sortedmatches[:100], None, flags=cv2.DrawMatchesFlags_NOT_DRAW_SINGLE_POINTS)
+
+            plt.suptitle("Amount of matches : " + str(highestperct))
+
+            # show the images
+            plt.imshow(drawing), plt.axis("off"), plt.show(drawing)
+
+            cursor.execute("DELETE FROM BFSIFT")
+            connectdb.commit()'''
 
         def goback():
             controller.show_frame("Home")
@@ -353,6 +424,9 @@ class Methods(tk.Frame):
 
         methodbfod = tk.Button(self, text="BFOD (Brute-Force Matching with ORB Descriptors)", command=BFOD)
         methodbfod.pack()
+
+        methodbfsift = tk.Button(self, text="BFSIFT (Bruteforce matching with SIFT decriptors and ratio test)", command=BFSIFT)
+        methodbfsift.pack()
 
         label4 = tk.Label(self, text="      ")
         label4.pack()

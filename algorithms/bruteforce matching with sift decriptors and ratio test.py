@@ -4,7 +4,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 
-img1 = cv2.imread('box.png', cv2.IMREAD_GRAYSCALE)            # queryImage
+img1 = cv2.imread('box.png', cv2.IMREAD_GRAYSCALE)      # queryImage
 img2 = cv2.imread('box_in_scene.png', cv2.IMREAD_GRAYSCALE)   # trainImage
 # Initiate SIFT detector
 sift = cv2.xfeatures2d.SIFT_create()

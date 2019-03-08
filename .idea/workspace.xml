@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36bf333e-46aa-4ebe-b6c3-bc2834873bf5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/knn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Iris.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Iris.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bruteforce matching with orb decriptors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EMD.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/EMD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FLANN based Matcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/FLANN based Matcher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/SURF.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bruteforce matching with sift decriptors and ratio test.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/bruteforce matching with sift decriptors and ratio test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IRIS.py" beforeDir="false" afterPath="$PROJECT_DIR$/IRIS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/bruteforce matching with sift decriptors and ratio test.py" beforeDir="false" afterPath="$PROJECT_DIR$/bruteforce matching with sift decriptors and ratio test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results.db" beforeDir="false" afterPath="$PROJECT_DIR$/results.db" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,13 +16,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Iris$main.coverage" NAME="main Coverage Results" MODIFIED="1551808877846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Iris$IRIS.coverage" NAME="IRIS Coverage Results" MODIFIED="1551999110869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Iris$bruteforce_matching_with_sift_decriptors_and_ratio_test.coverage" NAME="bruteforce matching with sift decriptors and ratio test Coverage Results" MODIFIED="1551898562269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Iris$main.coverage" NAME="main Coverage Results" MODIFIED="1551808877846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Iris$knn.coverage" NAME="knn Coverage Results" MODIFIED="1551999648899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Iris$startupbox.coverage" NAME="startupbox Coverage Results" MODIFIED="1551834243556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Iris$Bruteforce_matching_with_orb_decriptors.coverage" NAME="Bruteforce matching with orb decriptors Coverage Results" MODIFIED="1551902572616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Iris$bruteforce_matching_with_sift_decriptors_and_ratio_test__1_.coverage" NAME="bruteforce matching with sift decriptors and ratio test (1) Coverage Results" MODIFIED="1552084811226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms" />
     <SUITE FILE_PATH="coverage/Iris$EMD.coverage" NAME="EMD Coverage Results" MODIFIED="1551808355476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Iris$startupbox.coverage" NAME="startupbox Coverage Results" MODIFIED="1551834243556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Iris$bruteforce_matching_with_sift_decriptors_and_ratio_test__2_.coverage" NAME="bruteforce matching with sift decriptors and ratio test (2) Coverage Results" MODIFIED="1552084978540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -44,73 +42,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/IRIS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="938">
-              <caret line="316" column="30" selection-start-line="316" selection-start-column="30" selection-end-line="316" selection-end-column="30" />
+            <state relative-caret-position="302">
+              <caret line="409" lean-forward="true" selection-start-line="409" selection-end-line="409" />
               <folding>
                 <element signature="e#4342#6364#0" />
                 <element signature="e#6397#8737#0" />
                 <element signature="e#6722#7668#0" />
+                <element signature="e#8771#11253#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/knn.py">
+        <entry file="file://$PROJECT_DIR$/bruteforce matching with sift decriptors and ratio test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/algorithms/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithms/bruteforce matching with sift decriptors and ratio test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+            <state relative-caret-position="-7">
+              <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
               <folding>
                 <element signature="e#65#83#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithms/EMD.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithms/FLANN based Matcher.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -146,27 +100,27 @@
         <option value="$PROJECT_DIR$/EMD.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/startupbox.py" />
-        <option value="$PROJECT_DIR$/bruteforce matching with sift decriptors and ratio test.py" />
         <option value="$PROJECT_DIR$/FLANN based Matcher.py" />
         <option value="$PROJECT_DIR$/Bruteforce matching with orb decriptors.py" />
-        <option value="$PROJECT_DIR$/IRIS.py" />
         <option value="$PROJECT_DIR$/knn.py" />
         <option value="$PROJECT_DIR$/algorithms/main.py" />
+        <option value="$PROJECT_DIR$/algorithms/bruteforce matching with sift decriptors and ratio test.py" />
+        <option value="$PROJECT_DIR$/bruteforce matching with sift decriptors and ratio test.py" />
+        <option value="$PROJECT_DIR$/IRIS.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="126" />
-    <option name="y" value="-23" />
-    <option name="width" value="1582" />
-    <option name="height" value="932" />
+    <option name="x" value="125" />
+    <option name="y" value="-24" />
+    <option name="width" value="1583" />
+    <option name="height" value="933" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,10 +128,16 @@
               <item name="Iris" type="b2602c69:ProjectViewProjectNode" />
               <item name="Iris" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Iris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Iris" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -186,10 +146,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Monchi\Documents\GitHub\Iris" />
       <recent name="C:\Users\chain\Documents\GitHub\Iris" />
       <recent name="C:\Users\chain\Documents\GitHub\Iris\algorithms" />
       <recent name="C:\Users\chain\Documents\GitHub\Iris\old" />
@@ -207,7 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.knn">
+  <component name="RunManager" selected="Python.bruteforce matching with sift decriptors and ratio test (2)">
     <configuration name="Bruteforce matching with orb decriptors" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Iris" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -252,7 +213,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bruteforce matching with sift decriptors and ratio test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="bruteforce matching with sift decriptors and ratio test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Iris" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Monchi\Documents\GitHub\Iris\algorithms\bruteforce matching with sift decriptors and ratio test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="bruteforce matching with sift decriptors and ratio test (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Iris" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -265,7 +248,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\chain\Documents\GitHub\Iris\algorithms\bruteforce matching with sift decriptors and ratio test.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Monchi\Documents\GitHub\Iris\algorithms\bruteforce matching with sift decriptors and ratio test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -296,35 +279,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="startupbox" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Iris" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/startupbox.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.bruteforce matching with sift decriptors and ratio test (2)" />
+        <item itemvalue="Python.bruteforce matching with sift decriptors and ratio test (1)" />
         <item itemvalue="Python.knn" />
         <item itemvalue="Python.IRIS" />
         <item itemvalue="Python.Bruteforce matching with orb decriptors" />
-        <item itemvalue="Python.bruteforce matching with sift decriptors and ratio test" />
-        <item itemvalue="Python.startupbox" />
       </list>
     </recent_temporary>
   </component>
@@ -344,18 +305,19 @@
       <workItem from="1551988474693" duration="599000" />
       <workItem from="1551991738404" duration="2110000" />
       <workItem from="1551998846717" duration="983000" />
+      <workItem from="1552082095091" duration="1783000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27347000" />
+    <option name="totallyTimeSpent" value="29130000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.14872068" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.18590604" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -365,14 +327,14 @@
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.22426869" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.22379604" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="right" id="Database" order="0" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="SciView" order="2" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="SciView" order="2" weight="0.3295302" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
     </layout>
@@ -385,24 +347,14 @@
     <entry file="file://$PROJECT_DIR$/b.jpg" />
     <entry file="file://$PROJECT_DIR$/startupbox.py" />
     <entry file="file://$PROJECT_DIR$/2.png" />
-    <entry file="file://$PROJECT_DIR$/1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bruteforce matching with orb decriptors.py">
+    <entry file="file://$PROJECT_DIR$/Bruteforce matching with orb decriptors.py" />
+    <entry file="file://$PROJECT_DIR$/algorithms/SURF.py" />
+    <entry file="file://$PROJECT_DIR$/algorithms/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IRIS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="938">
-          <caret line="316" column="30" selection-start-line="316" selection-start-column="30" selection-end-line="316" selection-end-column="30" />
+        <state relative-caret-position="538">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
-            <element signature="e#4342#6364#0" />
-            <element signature="e#6397#8737#0" />
-            <element signature="e#6722#7668#0" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -417,15 +369,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/bruteforce matching with sift decriptors and ratio test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-          <folding>
-            <element signature="e#65#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/argentina.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box_in_scene.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithms/EMD.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -444,22 +398,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/SURF.py">
+    <entry file="file://$PROJECT_DIR$/bruteforce matching with sift decriptors and ratio test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+        <state relative-caret-position="-7">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#65#83#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/main.py">
+    <entry file="file://$PROJECT_DIR$/IRIS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="302">
+          <caret line="409" lean-forward="true" selection-start-line="409" selection-end-line="409" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#4342#6364#0" />
+            <element signature="e#6397#8737#0" />
+            <element signature="e#6722#7668#0" />
+            <element signature="e#8771#11253#0" />
           </folding>
         </state>
       </provider>
