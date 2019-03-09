@@ -376,12 +376,12 @@ class Methods(tk.Frame):
 
                 print('Comparing input image to ' + image + " using BFSIFT")
                 print(amount)
-                print(matches)
+                print(good)
 
                 cursor.execute("INSERT INTO BFSIFT (percentage, filename, list) VALUES (?, ?, ?);", (amount, image, str(good)))
                 connectdb.commit()
 
-            '''percentages = list(connectdb.cursor().execute("SELECT * FROM BFOD order by percentage desc limit 10"))
+            percentages = list(connectdb.cursor().execute("SELECT * FROM BFSIFT order by percentage desc limit 10"))
             print(percentages[0])
 
             highest = percentages[0]
@@ -398,18 +398,18 @@ class Methods(tk.Frame):
             img3process = cv2.cvtColor(img3, cv2.COLOR_BGR2GRAY)
             imageC = cv2.resize(img3process, (450, 237))
 
-            # Sort them in the order of their distance.
-            sortedmatches = sorted(matches, key=lambda x: x.distance)
+            connections = highest[2]
+
             # Draw first 10 matches.
-            drawing = cv2.drawMatches(imageA, kp1, imageC, kp2, sortedmatches[:100], None, flags=cv2.DrawMatchesFlags_NOT_DRAW_SINGLE_POINTS)
+            drawmatches = cv2.drawMatchesKnn(imageA, kp1, imageC, kp2, connections, None, flags=2)
 
             plt.suptitle("Amount of matches : " + str(highestperct))
 
             # show the images
-            plt.imshow(drawing), plt.axis("off"), plt.show(drawing)
+            plt.imshow(drawmatches), plt.axis("off"), plt.show(drawmatches)
 
             cursor.execute("DELETE FROM BFSIFT")
-            connectdb.commit()'''
+            connectdb.commit()
 
         def goback():
             controller.show_frame("Home")
