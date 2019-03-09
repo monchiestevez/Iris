@@ -411,6 +411,61 @@ class Methods(tk.Frame):
             cursor.execute("DELETE FROM BFSIFT")
             connectdb.commit()
 
+        def FLANN():
+            connectdb = sqlite3.connect("results.db")
+            cursor = connectdb.cursor()
+
+            img1 = cv2.imread("1.png")
+            img11 = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
+            imageA = cv2.resize(img11, (450, 237))
+            database = os.listdir("db")
+
+            for image in database:
+                img2 = cv2.imread("db/" + image)
+
+                imgprocess = cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY)
+
+                imageB = cv2.resize(imgprocess, (450, 237))
+
+                matcheslist = ""
+
+
+
+                print('Comparing input image to ' + image + " using FLANN")
+
+                cursor.execute("INSERT INTO BFSIFT (percentage, filename, list) VALUES (?, ?, ?);", (amount, image, str(good)))
+                connectdb.commit()
+
+            percentages = list(connectdb.cursor().execute("SELECT * FROM BFSIFT order by percentage desc limit 10"))
+            print(percentages[0])
+
+            highest = percentages[0]
+            highestperct = round(highest[0], 2)
+            print(highestperct)
+
+            for root, dirs, files in os.walk("db"):
+                if highest[1] in files:
+                    path = os.path.join(root, highest[1])
+
+            print(path)
+
+            img3 = cv2.imread(path)
+            img3process = cv2.cvtColor(img3, cv2.COLOR_BGR2GRAY)
+            imageC = cv2.resize(img3process, (450, 237))
+
+            connections = highest[2]
+
+            # Draw first 10 matches.
+            drawmatches = cv2.drawMatchesKnn(imageA, kp1, imageC, kp2, connections, None, flags=2)
+
+            plt.suptitle("Amount of matches : " + str(highestperct))
+
+            # show the images
+            plt.imshow(drawmatches), plt.axis("off"), plt.show(drawmatches)
+
+            cursor.execute("DELETE FROM BFSIFT")
+            connectdb.commit()
+
         def goback():
             controller.show_frame("Home")
             removeimg = "rm 1.png"
@@ -427,6 +482,9 @@ class Methods(tk.Frame):
 
         methodbfsift = tk.Button(self, text="BFSIFT (Bruteforce matching with SIFT decriptors and ratio test)", command=BFSIFT)
         methodbfsift.pack()
+
+        methodflann = tk.Button(self, text="FLANN (Fast Library for Approximate Nearest Neighbors)", command=FLANN)
+        methodflann.pack()
 
         label4 = tk.Label(self, text="      ")
         label4.pack()
