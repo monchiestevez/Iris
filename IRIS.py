@@ -11,6 +11,7 @@ import os
 from tkinter import filedialog
 import sqlite3
 import numpy as np
+import shutil
 
 
 class SampleApp(tk.Tk):
@@ -92,6 +93,7 @@ class Home(tk.Frame):
         def urlimages():
             firstimage = url1.get()
             resource = urllib.request.urlopen(firstimage)
+            print(resource)
             output = open("1.png", "wb")
             output.write(resource.read())
             output.close()
@@ -104,8 +106,10 @@ class Home(tk.Frame):
         submit.pack()
 
         def fileDialog():
-            file = filedialog.askopenfile(initialdir="/", title='Choose a file', filetype=(("jpeg", "*.jpg"), ('All Files', "*.*")))
-            print(file.read())
+            file = filedialog.askopenfilename(initialdir="/", title='Choose a file', filetype=(("jpeg", "*.jpg"), ("png", "*.png"), ('All Files', "*.*")))
+            filedir = r"%s" % file
+            shutil.move(filedir, os.getcwd())
+            os.rename(file[25:], '1.png')
 
         label3 = tk.Label(self, text="      ")
         label3.pack()
