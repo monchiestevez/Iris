@@ -338,7 +338,9 @@ class Methods(tk.Frame):
             plt.suptitle("Amount of matches : " + str(highestperct))
 
             # show the images
-            plt.imshow(drawing), plt.axis("off"), plt.show(drawing)
+            plt.axis("off")
+            plt.imshow(drawing)
+            plt.show()
 
             cursor.execute("DELETE FROM BFOD")
             connectdb.commit()
@@ -507,5 +509,9 @@ class Methods(tk.Frame):
 
 
 if __name__ == "__main__":
-    app = SampleApp()
-    app.mainloop()
+    try:
+        app = SampleApp()
+        app.mainloop()
+    finally:
+        remove = "rm 1.png"
+        os.system(remove)
