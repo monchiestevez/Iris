@@ -98,7 +98,7 @@ class Home(tk.Frame):
             output.write(resource.read())
             output.close()
 
-        label = tk.Label(self, text="Sample Image:")
+        label = tk.Label(self, text="Input Image:")
         label.pack()
         tk.Entry(self, textvariable=url1).pack()
 
@@ -109,6 +109,7 @@ class Home(tk.Frame):
             file = filedialog.askopenfilename(initialdir="/", title='Choose a file', filetype=(("jpeg", "*.jpg"), ("png", "*.png"), ('All Files', "*.*")))
             filedir = r"%s" % file
             shutil.move(filedir, os.getcwd())
+            print(file)
             os.rename(file[25:], '1.png')
 
         label3 = tk.Label(self, text="      ")
@@ -199,6 +200,9 @@ class Methods(tk.Frame):
             ax = fig.add_subplot(1, 2, 2)
             plt.imshow(imageC, cmap=plt.cm.gray)
             plt.axis("off")
+            disease = path[3:-4]
+            txt = "Results: \n - " + path + "\n - " + disease
+            plt.text(0.40, 0.25, txt, transform=fig.transFigure, size=11)
             # show the images
             plt.show()
 
@@ -269,6 +273,9 @@ class Methods(tk.Frame):
             # show the second image
             ax = fig.add_subplot(1, 2, 2)
             plt.imshow(imageC, cmap=plt.cm.gray)
+            disease = path[3:-4]
+            txt = "Results: \n - " + path + "\n - " + disease
+            plt.text(0.40, 0.25, txt, transform=fig.transFigure, size=11)
             plt.axis("off")
             # show the images
             plt.show()
@@ -310,6 +317,9 @@ class Methods(tk.Frame):
                 print(amount)
                 print(matches)
 
+                title = "Comparing"
+                fig = plt.figure(title)
+
                 cursor.execute("INSERT INTO BFOD (percentage, filename, list) VALUES (?, ?, ?);", (amount, image, str(matches)))
                 connectdb.commit()
 
@@ -336,7 +346,9 @@ class Methods(tk.Frame):
             drawing = cv2.drawMatches(imageA, kp1, imageC, kp2, sortedmatches[:100], None, flags=cv2.DrawMatchesFlags_NOT_DRAW_SINGLE_POINTS)
 
             plt.suptitle("Amount of matches : " + str(highestperct))
-
+            disease = path[3:-4]
+            txt = "Results: \n - " + path + "\n - " + disease
+            plt.text(0.40, 0.25, txt, transform=fig.transFigure, size=11)
             # show the images
             plt.axis("off")
             plt.imshow(drawing)
@@ -349,9 +361,10 @@ class Methods(tk.Frame):
             connectdb = sqlite3.connect("results.db")
             cursor = connectdb.cursor()
 
-            img1 = cv2.imread("1.png")
-            img11 = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
-            imageA = cv2.resize(img11, (450, 237))
+            #  img1 = cv2.imread("1.png")
+            #  img11 = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
+            img1 = cv2.imread('1.png', cv2.IMREAD_GRAYSCALE)
+            imageA = cv2.resize(img1, (450, 237))
             database = os.listdir("db")
 
             for image in database:
@@ -384,6 +397,9 @@ class Methods(tk.Frame):
                 print(amount)
                 print(good)
 
+                title = "Comparing"
+                fig = plt.figure(title)
+
                 cursor.execute("INSERT INTO BFSIFT (percentage, filename, list) VALUES (?, ?, ?);", (amount, image, str(good)))
                 connectdb.commit()
 
@@ -400,19 +416,32 @@ class Methods(tk.Frame):
 
             print(path)
 
-            img3 = cv2.imread(path)
-            img3process = cv2.cvtColor(img3, cv2.COLOR_BGR2GRAY)
-            imageC = cv2.resize(img3process, (450, 237))
+            img3 = cv2.imread(path, cv2.IMREAD_GRAYSCALE)
+            imageC = cv2.resize(img3, (450, 237))
 
             connections = highest[2]
 
+            '''drawmatches = cv2.drawMatchesKnn(imageA, kp1, imageC, kp2, connections, None, flags=2)
+
             # Draw first 10 matches.
-            drawmatches = cv2.drawMatchesKnn(imageA, kp1, imageC, kp2, connections, None, flags=2)
+            drawmatches = cv2.drawMatchesKnn(imageA, kp1, imageC, kp2, connections, None, flags=2)'''
+
+            # show first image
+            ax = fig.add_subplot(1, 2, 1)
+            plt.imshow(imageA, cmap=plt.cm.gray)
+            plt.axis("off")
+
+            # show the second image
+            ax = fig.add_subplot(1, 2, 2)
+            plt.imshow(imageC, cmap=plt.cm.gray)
+            plt.axis("off")
 
             plt.suptitle("Amount of matches : " + str(highestperct))
+            disease = path[3:-4]
+            txt = "Results: \n - " + path + "\n - " + disease
+            plt.text(0.40, 0.20, txt, transform=fig.transFigure, size=11)
 
-            # show the images
-            plt.imshow(drawmatches), plt.axis("off"), plt.show(drawmatches)
+            plt.axis("off"), plt.show()
 
             cursor.execute("DELETE FROM BFSIFT")
             connectdb.commit()
@@ -435,9 +464,10 @@ class Methods(tk.Frame):
 
                 matcheslist = ""
 
-
-
                 print('Comparing input image to ' + image + " using FLANN")
+
+                title = "Comparing"
+                fig = plt.figure(title)
 
                 cursor.execute("INSERT INTO BFSIFT (percentage, filename, list) VALUES (?, ?, ?);", (amount, image, str(good)))
                 connectdb.commit()
