@@ -391,57 +391,60 @@ class Methods(tk.Frame):
                     if m.distance < 0.75 * n.distance:
                         good.append([m])
                 # cv.drawMatchesKnn expects list of lists as matches.
-                amount = len(good)
 
+                amount = len(good)
                 print('Comparing input image to ' + image + " using BFSIFT")
-                print(amount)
-                print(good)
 
                 title = "Comparing"
                 fig = plt.figure(title)
 
-                cursor.execute("INSERT INTO BFSIFT (percentage, filename, list) VALUES (?, ?, ?);", (amount, image, str(good)))
+                cursor.execute("INSERT INTO BFSIFT (percentage, filename) VALUES (?, ?);", (amount, image))
                 connectdb.commit()
 
             percentages = list(connectdb.cursor().execute("SELECT * FROM BFSIFT order by percentage desc limit 10"))
             print(percentages[0])
-
             highest = percentages[0]
+
+            # getting number of matches
             highestperct = round(highest[0], 2)
             print(highestperct)
 
-            for root, dirs, files in os.walk("db"):
-                if highest[1] in files:
-                    path = os.path.join(root, highest[1])
+            # getting file name of highest similarity
+            filename = highest[1]
+            print(filename)
 
-            print(path)
+            img1 = cv2.imread('1.png', cv2.IMREAD_GRAYSCALE)               # input image
+            img2 = cv2.imread('db/' + filename, cv2.IMREAD_GRAYSCALE)      # closet image
 
-            img3 = cv2.imread(path, cv2.IMREAD_GRAYSCALE)
-            imageC = cv2.resize(img3, (450, 237))
+            # Initiate SIFT detector
+            sift = cv2.xfeatures2d.SIFT_create()
 
-            connections = highest[2]
+            # find the keypoints and descriptors with SIFT
+            kp1, des1 = sift.detectAndCompute(img1, None)
+            kp2, des2 = sift.detectAndCompute(img2, None)
 
-            '''drawmatches = cv2.drawMatchesKnn(imageA, kp1, imageC, kp2, connections, None, flags=2)
+            # BFMatcher with default params
+            bf = cv2.BFMatcher()
+            matches = bf.knnMatch(des1, des2, k=2)
 
-            # Draw first 10 matches.
-            drawmatches = cv2.drawMatchesKnn(imageA, kp1, imageC, kp2, connections, None, flags=2)'''
+            # Apply ratio test
+            good = []
+            for m, n in matches:
+                if m.distance < 0.75 * n.distance:
+                    good.append([m])
 
-            # show first image
-            ax = fig.add_subplot(1, 2, 1)
-            plt.imshow(imageA, cmap=plt.cm.gray)
-            plt.axis("off")
-
-            # show the second image
-            ax = fig.add_subplot(1, 2, 2)
-            plt.imshow(imageC, cmap=plt.cm.gray)
-            plt.axis("off")
+            # cv.drawMatchesKnn expects list of lists as matches.
+            print(good)
+            print(kp1)
+            print(kp2)
 
             plt.suptitle("Amount of matches : " + str(highestperct))
-            disease = path[3:-4]
-            txt = "Results: \n - " + path + "\n - " + disease
+            disease = filename[3:-4]
+            txt = "Results: \n - " + filename + "\n - " + disease
             plt.text(0.40, 0.20, txt, transform=fig.transFigure, size=11)
 
-            plt.axis("off"), plt.show()
+            drawmatches = cv2.drawMatchesKnn(img1, kp1, img2, kp2, good, None, flags=2)
+            plt.imshow(drawmatches), plt.axis("off"), plt.show()
 
             cursor.execute("DELETE FROM BFSIFT")
             connectdb.commit()
@@ -457,22 +460,48 @@ class Methods(tk.Frame):
 
             for image in database:
                 img2 = cv2.imread("db/" + image)
-
                 imgprocess = cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY)
-
                 imageB = cv2.resize(imgprocess, (450, 237))
 
-                matcheslist = ""
-
                 print('Comparing input image to ' + image + " using FLANN")
+
+                # Initiate SIFT detector
+                sift = cv2.xfeatures2d.SIFT_create()
+
+                # find the keypoints and descriptors with SIFT
+                kp1, des1 = sift.detectAndCompute(imageA, None)
+                kp2, des2 = sift.detectAndCompute(imageB, None)
+
+                # FLANN parameters
+                FLANN_INDEX_KDTREE = 1
+                index_params = dict(algorithm=FLANN_INDEX_KDTREE, trees=5)
+                search_params = dict(checks=50)  # or pass empty dictionary
+                flann = cv2.FlannBasedMatcher(index_params, search_params)
+                matches = flann.knnMatch(des1, des2, k=2)
+
+                # Need to draw only good matches, so create a mask
+                matchesMask = [[0, 0] for i in range(len(matches))]
+
+                # ratio test as per Lowe's paper
+                for i, (m, n) in enumerate(matches):
+                    if m.distance < 0.7 * n.distance:
+                        matchesMask[i] = [1, 0]
+
+                draw_params = dict(matchColor=(0, 255, 0),
+                                   singlePointColor=(255, 0, 0),
+                                   matchesMask=matchesMask,
+                                   flags=cv2.DrawMatchesFlags_DEFAULT)
+
+                print(draw_params)
+                print(len(matches))
 
                 title = "Comparing"
                 fig = plt.figure(title)
 
-                cursor.execute("INSERT INTO BFSIFT (percentage, filename, list) VALUES (?, ?, ?);", (amount, image, str(good)))
+                cursor.execute("INSERT INTO flann (percentage, filename) VALUES (?, ?);", (len(matches), image))
                 connectdb.commit()
 
-            percentages = list(connectdb.cursor().execute("SELECT * FROM BFSIFT order by percentage desc limit 10"))
+            '''percentages = list(connectdb.cursor().execute("SELECT * FROM BFSIFT order by percentage desc limit 10"))
             print(percentages[0])
 
             highest = percentages[0]
@@ -499,8 +528,8 @@ class Methods(tk.Frame):
             # show the images
             plt.imshow(drawmatches), plt.axis("off"), plt.show(drawmatches)
 
-            cursor.execute("DELETE FROM BFSIFT")
-            connectdb.commit()
+            cursor.execute("DELETE FROM flann")
+            connectdb.commit()'''
 
         def goback():
             controller.show_frame("Home")

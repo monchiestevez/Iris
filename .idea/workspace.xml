@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36bf333e-46aa-4ebe-b6c3-bc2834873bf5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/algorithms/canada.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FLANN based Matcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/FLANN based Matcher.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IRIS.py" beforeDir="false" afterPath="$PROJECT_DIR$/IRIS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bruteforce matching with sift decriptors and ratio test.py" beforeDir="false" afterPath="$PROJECT_DIR$/bruteforce matching with sift decriptors and ratio test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canada.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knn.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old/command_to_run.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old/retrain.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old/run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/bruteforce matching with sift decriptors and ratio test.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/bruteforce matching with sift decriptors and ratio test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results.db" beforeDir="false" afterPath="$PROJECT_DIR$/results.db" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,14 +16,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Iris$IRIS.coverage" NAME="IRIS Coverage Results" MODIFIED="1552787239821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Iris$IRIS.coverage" NAME="IRIS Coverage Results" MODIFIED="1552788189487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Iris$bruteforce_matching_with_sift_decriptors_and_ratio_test.coverage" NAME="bruteforce matching with sift decriptors and ratio test Coverage Results" MODIFIED="1552786867347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Iris$Bruteforce_matching_with_orb_decriptors.coverage" NAME="Bruteforce matching with orb decriptors Coverage Results" MODIFIED="1551902572616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Iris$startupbox.coverage" NAME="startupbox Coverage Results" MODIFIED="1551834243556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Iris$FLANN_based_Matcher__1_.coverage" NAME="FLANN based Matcher (1) Coverage Results" MODIFIED="1552103946283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Iris$rtpe__1_.coverage" NAME="rtpe (1) Coverage Results" MODIFIED="1552195647574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Database/Inside Eye, Diabetic Retinopathy" />
-    <SUITE FILE_PATH="coverage/Iris$bruteforce_matching_with_sift_decriptors_and_ratio_test__1_.coverage" NAME="bruteforce matching with sift decriptors and ratio test (1) Coverage Results" MODIFIED="1552787379944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms" />
-    <SUITE FILE_PATH="coverage/Iris$FLANN_based_Matcher.coverage" NAME="FLANN based Matcher Coverage Results" MODIFIED="1552787289703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Iris$bruteforce_matching_with_sift_decriptors_and_ratio_test__1_.coverage" NAME="bruteforce matching with sift decriptors and ratio test (1) Coverage Results" MODIFIED="1552788337655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms" />
+    <SUITE FILE_PATH="coverage/Iris$FLANN_based_Matcher.coverage" NAME="FLANN based Matcher Coverage Results" MODIFIED="1552788027281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Iris$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1552195332273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Database/Eye with Bacterial Conjunctivitis" />
     <SUITE FILE_PATH="coverage/Iris$main.coverage" NAME="main Coverage Results" MODIFIED="1552787317195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms" />
     <SUITE FILE_PATH="coverage/Iris$bruteforce_matching_with_sift_decriptors_and_ratio_test__3_.coverage" NAME="bruteforce matching with sift decriptors and ratio test (3) Coverage Results" MODIFIED="1552103919598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -59,32 +56,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IRIS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="429" column="41" lean-forward="true" selection-start-line="429" selection-start-column="41" selection-end-line="429" selection-end-column="41" />
+            <state relative-caret-position="819">
+              <caret line="448" column="20" selection-start-line="448" selection-start-column="20" selection-end-line="448" selection-end-column="20" />
               <folding>
                 <element signature="e#353#1623#0" />
                 <element signature="e#398#1471#0" />
                 <element signature="e#1518#1623#0" />
                 <element signature="e#1658#2596#0" />
+                <element signature="e#4498#6520#0" />
                 <element signature="e#6553#8893#0" />
                 <element signature="e#8927#11424#0" />
                 <element signature="e#12456#13755#0" />
                 <element signature="e#13346#13427#0" />
-                <element signature="e#14079#15880#0" />
+                <element signature="e#15294#18481#0" />
                 <element signature="e#15916#16013#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bruteforce matching with sift decriptors and ratio test.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algorithms/bruteforce matching with sift decriptors and ratio test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="360">
+              <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -126,11 +124,9 @@
         <option value="$PROJECT_DIR$/EMD.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/startupbox.py" />
-        <option value="$PROJECT_DIR$/FLANN based Matcher.py" />
         <option value="$PROJECT_DIR$/Bruteforce matching with orb decriptors.py" />
         <option value="$PROJECT_DIR$/knn.py" />
         <option value="$PROJECT_DIR$/algorithms/main.py" />
-        <option value="$PROJECT_DIR$/algorithms/bruteforce matching with sift decriptors and ratio test.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/Database/Eye with Bacterial Conjunctivitis/test.py" />
         <option value="$PROJECT_DIR$/Database/Eye with Cataracts/rtpe.py" />
@@ -145,7 +141,9 @@
         <option value="$PROJECT_DIR$/Database/Picture of Blepharitis/rtpe.py" />
         <option value="$PROJECT_DIR$/Database/Pupil with Corneal Ulcer/rtpe.py" />
         <option value="$PROJECT_DIR$/bruteforce matching with sift decriptors and ratio test.py" />
+        <option value="$PROJECT_DIR$/FLANN based Matcher.py" />
         <option value="$PROJECT_DIR$/IRIS.py" />
+        <option value="$PROJECT_DIR$/algorithms/bruteforce matching with sift decriptors and ratio test.py" />
       </list>
     </option>
   </component>
@@ -188,12 +186,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chain\Documents\GitHub\Iris\algorithms" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chain\Documents\GitHub\Iris\algorithms" />
       <recent name="C:\Users\chain\Documents\GitHub\Iris\Database\Pupil with Corneal Ulcer" />
       <recent name="C:\Users\chain\Documents\GitHub\Iris\Database\Picture of Blepharitis" />
       <recent name="C:\Users\chain\Documents\GitHub\Iris\Database\Inside Eye, Retinal Detachment" />
       <recent name="C:\Users\chain\Documents\GitHub\Iris\Database\Inside Eye, Diabetic Retinopathy" />
-      <recent name="C:\Users\chain\Documents\GitHub\Iris\Database\Inside Eye, Age-Related Macular Degenarion" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -322,9 +323,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.bruteforce matching with sift decriptors and ratio test (1)" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.FLANN based Matcher" />
         <item itemvalue="Python.IRIS" />
+        <item itemvalue="Python.FLANN based Matcher" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.bruteforce matching with sift decriptors and ratio test" />
       </list>
     </recent_temporary>
@@ -351,16 +352,15 @@
       <workItem from="1552184341355" duration="4949000" />
       <workItem from="1552193573058" duration="2353000" />
       <workItem from="1552254018735" duration="158000" />
-      <workItem from="1552782185247" duration="5012000" />
+      <workItem from="1552782185247" duration="6187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46076000" />
+    <option name="totallyTimeSpent" value="47251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50139666" side_tool="true" weight="0.14285715" />
       <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49860334" visible="true" weight="0.14285715" />
@@ -373,7 +373,7 @@
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.49946696" visible="true" weight="0.22426869" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49946696" weight="0.22426869" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -395,18 +395,11 @@
     <entry file="file://$PROJECT_DIR$/2.png" />
     <entry file="file://$PROJECT_DIR$/Bruteforce matching with orb decriptors.py" />
     <entry file="file://$PROJECT_DIR$/algorithms/SURF.py" />
-    <entry file="file://$PROJECT_DIR$/box.png">
+    <entry file="file://$PROJECT_DIR$/algorithms/box.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/box_in_scene.png">
+    <entry file="file://$PROJECT_DIR$/algorithms/box_in_scene.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FLANN based Matcher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/argentina.png" />
     <entry file="file://$PROJECT_DIR$/Database/Eye with Bacterial Conjunctivitis/test.py" />
@@ -437,16 +430,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/knn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
@@ -457,31 +440,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bruteforce matching with sift decriptors and ratio test.py">
+    <entry file="file://$PROJECT_DIR$/algorithms/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="126">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FLANN based Matcher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="34" selection-start-line="34" selection-end-line="35" selection-end-column="19" />
+          <folding>
+            <element signature="e#65#83#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IRIS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="429" column="41" lean-forward="true" selection-start-line="429" selection-start-column="41" selection-end-line="429" selection-end-column="41" />
+        <state relative-caret-position="819">
+          <caret line="448" column="20" selection-start-line="448" selection-start-column="20" selection-end-line="448" selection-end-column="20" />
           <folding>
             <element signature="e#353#1623#0" />
             <element signature="e#398#1471#0" />
             <element signature="e#1518#1623#0" />
             <element signature="e#1658#2596#0" />
+            <element signature="e#4498#6520#0" />
             <element signature="e#6553#8893#0" />
             <element signature="e#8927#11424#0" />
             <element signature="e#12456#13755#0" />
             <element signature="e#13346#13427#0" />
-            <element signature="e#14079#15880#0" />
+            <element signature="e#15294#18481#0" />
             <element signature="e#15916#16013#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/bruteforce matching with sift decriptors and ratio test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
