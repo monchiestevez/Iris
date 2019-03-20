@@ -12,6 +12,7 @@ from tkinter import filedialog
 import sqlite3
 import numpy as np
 import shutil
+from glob import glob
 
 
 class SampleApp(tk.Tk):
@@ -24,7 +25,7 @@ class SampleApp(tk.Tk):
         # the container is where we'll stack a bunch of frames
         # on top of each other, then the one we want visible
         # will be raised above the others
-        self.wm_iconbitmap('icon.ico')
+        self.wm_iconbitmap('icons/icon.ico')
         container = tk.Frame(self)
         container.pack(side="top", fill="both", expand=True)
         container.grid_rowconfigure(0, weight=1)
@@ -107,11 +108,17 @@ class Home(tk.Frame):
         submit.pack()
 
         def fileDialog():
-            file = filedialog.askopenfilename(initialdir="/", title='Choose a file', filetype=(("jpeg", "*.jpg"), ("png", "*.png"), ('All Files', "*.*")))
-            filedir = r"%s" % file
-            shutil.move(filedir, os.getcwd())
-            print(file)
-            os.rename(file[25:], '1.png')
+            try:
+                file = filedialog.askopenfilename(initialdir="/", title='Choose a file', filetype=(("jpeg", "*.jpg"), ("png", "*.png"), ('All Files', "*.*")))
+                filedir = r"%s" % file
+                shutil.move(filedir, os.getcwd())
+                filename = glob('*.png')[0]
+                print(filename)
+                os.rename(file, "1.png")
+            except:
+                print("Renaming already existing png file")
+                filename = glob('*.png')[0]
+                os.rename(filename, "1.png")
 
         label3 = tk.Label(self, text="      ")
         label3.pack()
@@ -589,6 +596,8 @@ class Methods(tk.Frame):
 
 if __name__ == "__main__":
     try:
+        remove = "rm 1.png"
+        os.system(remove)
         app = SampleApp()
         app.mainloop()
     finally:
