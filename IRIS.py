@@ -468,38 +468,42 @@ class Methods(tk.Frame):
             database = os.listdir("db")
 
             for image in database:
-                img2 = cv2.imread("db/" + image)
+                try:
+                    img2 = cv2.imread("db/" + image)
 
-                imgprocess = cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY)
+                    imgprocess = cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY)
 
-                imageB = cv2.resize(imgprocess, (450, 237))
+                    imageB = cv2.resize(imgprocess, (450, 237))
 
-                matcheslist = ""
+                    matcheslist = ""
 
-                # Initiate SIFT detector
-                sift = cv2.xfeatures2d.SIFT_create()
-                # find the keypoints and descriptors with SIFT
-                kp1, des1 = sift.detectAndCompute(imageA, None)
-                kp2, des2 = sift.detectAndCompute(imageB, None)
+                    # Initiate SIFT detector
+                    sift = cv2.xfeatures2d.SIFT_create()
+                    # find the keypoints and descriptors with SIFT
+                    kp1, des1 = sift.detectAndCompute(imageA, None)
+                    kp2, des2 = sift.detectAndCompute(imageB, None)
 
-                # BFMatcher with default params
-                bf = cv2.BFMatcher()
-                matches = bf.knnMatch(des1, des2, k=2)
-                # Apply ratio test
-                good = []
-                for m, n in matches:
-                    if m.distance < 0.75 * n.distance:
-                        good.append([m])
-                # cv.drawMatchesKnn expects list of lists as matches.
+                    # BFMatcher with default params
+                    bf = cv2.BFMatcher()
+                    matches = bf.knnMatch(des1, des2, k=2)
+                    # Apply ratio test
+                    good = []
+                    for m, n in matches:
+                        if m.distance < 0.75 * n.distance:
+                            good.append([m])
+                    # cv.drawMatchesKnn expects list of lists as matches.
 
-                amount = len(good)
-                print('Comparing input image to ' + image + " using BFSIFT")
+                    amount = len(good)
+                    print('Comparing input image to ' + image + " using BFSIFT")
 
-                title = "Comparing"
-                fig = plt.figure(title)
+                    title = "Comparing"
+                    fig = plt.figure(title)
 
-                cursor.execute("INSERT INTO flann (percentage, filename) VALUES (?, ?);", (amount, image))
-                connectdb.commit()
+                    cursor.execute("INSERT INTO flann (percentage, filename) VALUES (?, ?);", (amount, image))
+                    connectdb.commit()
+
+                except:
+                    pass
 
             percentages = list(connectdb.cursor().execute("SELECT * FROM flann order by percentage desc limit 10"))
             print(percentages[0])
@@ -520,15 +524,15 @@ class Methods(tk.Frame):
             sift = cv2.xfeatures2d.SIFT_create()
 
             # find the keypoints and descriptors with SIFT
-            kp1, des1 = sift.detectAndCompute(img1, None)
-            kp2, des2 = sift.detectAndCompute(img2, None)
+            keypoints1, destination1 = sift.detectAndCompute(img1, None)
+            keypoints2, destination2 = sift.detectAndCompute(img2, None)
 
             # FLANN parameters
             FLANN_INDEX_KDTREE = 1
             index_params = dict(algorithm = FLANN_INDEX_KDTREE, trees = 5)
             search_params = dict(checks=50)   # or pass empty dictionary
             flann = cv2.FlannBasedMatcher(index_params, search_params)
-            matches = flann.knnMatch(des1, des2, k=2)
+            matches = flann.knnMatch(destination1, destination2, k=2)
 
             # Need to draw only good matches, so create a mask
             matchesMask = [[0, 0] for i in range(len(matches))]
@@ -546,8 +550,8 @@ class Methods(tk.Frame):
             print(draw_params)
             print(len(matches))
 
-            img3 = cv2.drawMatchesKnn(img1, kp1, img2, kp2, matches, None, **draw_params)
-            plt.imshow(img3,)
+            img3 = cv2.drawMatchesKnn(img1, keypoints1, img2, keypoints1, matches, None, **draw_params)
+            plt.imshow(img3)
             plt.suptitle("Amount of matches : " + str(highestperct))
             disease = filename[:-4]
             txt = "Results: \n - " + filename + "\n - " + disease

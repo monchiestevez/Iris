@@ -2,12 +2,250 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36bf333e-46aa-4ebe-b6c3-bc2834873bf5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editingphotos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rename.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Iris.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Iris.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Bacterial Conjunctivitis/conjunctitivits1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Bacterial Conjunctivitis/conjunctitivits10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Bacterial Conjunctivitis/conjunctitivits11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Bacterial Conjunctivitis/conjunctitivits12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Bacterial Conjunctivitis/conjunctitivits13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Bacterial Conjunctivitis/conjunctitivits14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Bacterial Conjunctivitis/conjunctitivits15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Bacterial Conjunctivitis/conjunctitivits2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Bacterial Conjunctivitis/conjunctitivits3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Bacterial Conjunctivitis/conjunctitivits4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Bacterial Conjunctivitis/conjunctitivits6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Bacterial Conjunctivitis/conjunctitivits7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Bacterial Conjunctivitis/conjunctitivits8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Bacterial Conjunctivitis/conjunctitivits9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts101.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts102.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts103.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts104.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts105.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts106.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts107.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts108.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts109.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts110.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts111.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts112.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts113.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts115.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts116.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts117.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts118.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts119.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts121.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts122.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts123.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts124.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts125.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts126.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts127.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts129.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts130.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts131.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts132.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts133.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts134.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts135.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts136.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts137.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts138.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts139.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts140.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts141.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts142.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts143.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts145.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts146.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts147.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts148.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts149.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts151.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts152.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts153.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts154.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts155.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts156.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts157.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts158.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts159.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts161.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts162.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts163.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts164.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts165.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts166.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts167.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts168.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts169.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts170.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts33.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts35.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts37.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts38.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts41.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts42.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts43.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts46.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts47.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts49.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts52.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts53.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts54.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts56.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts58.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts59.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts61.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts62.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts63.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts65.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts66.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts67.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts68.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts69.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts71.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts73.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts74.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts75.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts77.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts78.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts79.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts81.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts82.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts83.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts84.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts85.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts86.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts87.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts88.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts89.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts90.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts91.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts92.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts93.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts94.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts95.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts97.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts98.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Cataracts/cataracts99.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Eye Allergies/allergies1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Glaucoma/glaucoma1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Glaucoma/glaucoma2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Glaucoma/glaucoma3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Glaucoma/glaucoma4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Glaucoma/glaucoma5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Glaucoma/glaucoma6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Glaucoma/glaucoma7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Glaucoma/glaucoma8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Sty (Stye)/stye1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eye with Uveitis/uveitis1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eyes with Trauma/trauma1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eyes with Trauma/trauma10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eyes with Trauma/trauma11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eyes with Trauma/trauma12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eyes with Trauma/trauma13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eyes with Trauma/trauma14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eyes with Trauma/trauma2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eyes with Trauma/trauma3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eyes with Trauma/trauma4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eyes with Trauma/trauma5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eyes with Trauma/trauma6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eyes with Trauma/trauma7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eyes with Trauma/trauma8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Eyes with Trauma/trauma9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Inside Eye, Age-Related Macular Degenarion/maculardegeneration1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Inside Eye, Diabetic Retinopathy/diabetic1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Inside Eye, Retinal Detachment/retinaldetachment1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Picture of Blepharitis/blepharitis1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Pupil with Corneal Ulcer/cornealulcer1.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/IRIS.py" beforeDir="false" afterPath="$PROJECT_DIR$/IRIS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/icons/icon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/icons/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/american-flag-graphic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/australian-flag-graphic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/blepharitis1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/british-flag-graphic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/california-flag-graphic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/canadian-flag-graphic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/cataracts109.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/cataracts116.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/cataracts15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/cataracts16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/cataracts20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/cataracts28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/cataracts31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/cataracts34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/cataracts9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/conjunctitivits11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/conjunctitivits12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/conjunctitivits15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/diabetic1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/retinaldetachment1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/trauma14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/monchi.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results.db" beforeDir="false" afterPath="$PROJECT_DIR$/results.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,26 +254,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Iris$IRIS.coverage" NAME="IRIS Coverage Results" MODIFIED="1553049305752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Iris$bruteforce_matching_with_sift_decriptors_and_ratio_test.coverage" NAME="bruteforce matching with sift decriptors and ratio test Coverage Results" MODIFIED="1552786867347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Iris$Bruteforce_matching_with_orb_decriptors.coverage" NAME="Bruteforce matching with orb decriptors Coverage Results" MODIFIED="1551902572616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Iris$startupbox.coverage" NAME="startupbox Coverage Results" MODIFIED="1551834243556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Iris$FLANN_based_Matcher__1_.coverage" NAME="FLANN based Matcher (1) Coverage Results" MODIFIED="1552103946283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Iris$rename.coverage" NAME="rename Coverage Results" MODIFIED="1553131660788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Iris$rtpe__1_.coverage" NAME="rtpe (1) Coverage Results" MODIFIED="1552195647574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Database/Inside Eye, Diabetic Retinopathy" />
-    <SUITE FILE_PATH="coverage/Iris$bruteforce_matching_with_sift_decriptors_and_ratio_test__1_.coverage" NAME="bruteforce matching with sift decriptors and ratio test (1) Coverage Results" MODIFIED="1552788337655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms" />
-    <SUITE FILE_PATH="coverage/Iris$FLANN_based_Matcher.coverage" NAME="FLANN based Matcher Coverage Results" MODIFIED="1552788027281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Iris$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1552195332273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Database/Eye with Bacterial Conjunctivitis" />
-    <SUITE FILE_PATH="coverage/Iris$main.coverage" NAME="main Coverage Results" MODIFIED="1552787317195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms" />
-    <SUITE FILE_PATH="coverage/Iris$bruteforce_matching_with_sift_decriptors_and_ratio_test__3_.coverage" NAME="bruteforce matching with sift decriptors and ratio test (3) Coverage Results" MODIFIED="1552103919598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Iris$bruteforce_matching_with_sift_decriptors_and_ratio_test.coverage" NAME="bruteforce matching with sift decriptors and ratio test Coverage Results" MODIFIED="1552786867347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Iris$IRIS.coverage" NAME="IRIS Coverage Results" MODIFIED="1553134248078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Iris$rtpe.coverage" NAME="rtpe Coverage Results" MODIFIED="1552195635260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Database/Inside Eye, Age-Related Macular Degenarion" />
     <SUITE FILE_PATH="coverage/Iris$rtpe__3_.coverage" NAME="rtpe (3) Coverage Results" MODIFIED="1552195681106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Database/Picture of Blepharitis" />
+    <SUITE FILE_PATH="coverage/Iris$bruteforce_matching_with_sift_decriptors_and_ratio_test__1_.coverage" NAME="bruteforce matching with sift decriptors and ratio test (1) Coverage Results" MODIFIED="1552788337655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms" />
+    <SUITE FILE_PATH="coverage/Iris$FLANN_based_Matcher__1_.coverage" NAME="FLANN based Matcher (1) Coverage Results" MODIFIED="1552103946283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Iris$EMD.coverage" NAME="EMD Coverage Results" MODIFIED="1551808355476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Iris$startupbox.coverage" NAME="startupbox Coverage Results" MODIFIED="1551834243556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Iris$rtpe__4_.coverage" NAME="rtpe (4) Coverage Results" MODIFIED="1552195699499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Database/Pupil with Corneal Ulcer" />
+    <SUITE FILE_PATH="coverage/Iris$rtpe__5_.coverage" NAME="rtpe (5) Coverage Results" MODIFIED="1552195591867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Database/Eyes with Trauma" />
+    <SUITE FILE_PATH="coverage/Iris$editingphotos.coverage" NAME="editingphotos Coverage Results" MODIFIED="1553134860577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Iris$test.coverage" NAME="test Coverage Results" MODIFIED="1553132003341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/healthy" />
+    <SUITE FILE_PATH="coverage/Iris$FLANN_based_Matcher.coverage" NAME="FLANN based Matcher Coverage Results" MODIFIED="1552788027281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Iris$Bruteforce_matching_with_orb_decriptors.coverage" NAME="Bruteforce matching with orb decriptors Coverage Results" MODIFIED="1551902572616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Iris$main.coverage" NAME="main Coverage Results" MODIFIED="1552787317195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms" />
     <SUITE FILE_PATH="coverage/Iris$knn.coverage" NAME="knn Coverage Results" MODIFIED="1552785146730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Iris$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1552195332273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Database/Eye with Bacterial Conjunctivitis" />
+    <SUITE FILE_PATH="coverage/Iris$bruteforce_matching_with_sift_decriptors_and_ratio_test__3_.coverage" NAME="bruteforce matching with sift decriptors and ratio test (3) Coverage Results" MODIFIED="1552103919598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Iris$rtpe__2_.coverage" NAME="rtpe (2) Coverage Results" MODIFIED="1552195663779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Database/Inside Eye, Retinal Detachment" />
     <SUITE FILE_PATH="coverage/Iris$bruteforce_matching_with_sift_decriptors_and_ratio_test__2_.coverage" NAME="bruteforce matching with sift decriptors and ratio test (2) Coverage Results" MODIFIED="1552084978540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Iris$rtpe__5_.coverage" NAME="rtpe (5) Coverage Results" MODIFIED="1552195591867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Database/Eyes with Trauma" />
-    <SUITE FILE_PATH="coverage/Iris$EMD.coverage" NAME="EMD Coverage Results" MODIFIED="1551808355476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Iris$test.coverage" NAME="test Coverage Results" MODIFIED="1552195187815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Iris$rtpe.coverage" NAME="rtpe Coverage Results" MODIFIED="1552195635260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Database/Inside Eye, Age-Related Macular Degenarion" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -56,24 +296,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IRIS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="119" column="37" selection-start-line="119" selection-start-column="37" selection-end-line="119" selection-end-column="37" />
+            <state relative-caret-position="204">
+              <caret line="473" column="33" selection-start-line="473" selection-start-column="33" selection-end-line="473" selection-end-column="33" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
-                <element signature="e#2286#2546#0" />
+                <element signature="e#4837#7028#0" />
+                <element signature="e#7061#9570#0" />
+                <element signature="e#9604#12346#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/editingphotos.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
+        <entry file="file://$PROJECT_DIR$/filtering.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state>
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hough_circles.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/read_dataset.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/visualization.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataset.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,6 +381,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -101,6 +400,7 @@
       <find>sample image</find>
       <find>matches1to2</find>
       <find>icon</find>
+      <find>db</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -132,22 +432,27 @@
         <option value="$PROJECT_DIR$/FLANN based Matcher.py" />
         <option value="$PROJECT_DIR$/algorithms/bruteforce matching with sift decriptors and ratio test.py" />
         <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/healthy/test.html" />
+        <option value="$PROJECT_DIR$/healthy/test.py" />
+        <option value="$PROJECT_DIR$/rename.py" />
+        <option value="$PROJECT_DIR$/memorybypass.py" />
         <option value="$PROJECT_DIR$/IRIS.py" />
+        <option value="$PROJECT_DIR$/hough_circles.py" />
+        <option value="$PROJECT_DIR$/editingphotos.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="104" />
+    <option name="x" value="103" />
     <option name="y" value="85" />
-    <option name="width" value="1582" />
-    <option name="height" value="932" />
+    <option name="width" value="1583" />
+    <option name="height" value="933" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,18 +460,15 @@
               <item name="Iris" type="b2602c69:ProjectViewProjectNode" />
               <item name="Iris" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Iris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Iris" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -175,15 +477,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chain\Documents\GitHub\Iris\algorithms" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Monchi\Documents\GitHub\Iris\healthy" />
       <recent name="C:\Users\chain\Documents\GitHub\Iris\icons" />
       <recent name="C:\Users\chain\Documents\GitHub\Iris\algorithms" />
       <recent name="C:\Users\chain\Documents\GitHub\Iris\Database\Pupil with Corneal Ulcer" />
       <recent name="C:\Users\chain\Documents\GitHub\Iris\Database\Picture of Blepharitis" />
-      <recent name="C:\Users\chain\Documents\GitHub\Iris\Database\Inside Eye, Retinal Detachment" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\chain\Documents\GitHub\Iris\algorithms" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -198,29 +500,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.IRIS">
-    <configuration name="FLANN based Matcher" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Iris" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FLANN based Matcher.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.editingphotos">
     <configuration name="IRIS" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Iris" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -265,7 +545,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bruteforce matching with sift decriptors and ratio test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="editingphotos" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Iris" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -278,7 +558,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\chain\Documents\GitHub\Iris\algorithms\bruteforce matching with sift decriptors and ratio test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/editingphotos.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -287,7 +567,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="rename" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Iris" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -295,12 +575,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rename.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Iris" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/healthy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/healthy/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -311,11 +613,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.editingphotos" />
         <item itemvalue="Python.IRIS" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.rename" />
         <item itemvalue="Python.bruteforce matching with sift decriptors and ratio test (1)" />
-        <item itemvalue="Python.FLANN based Matcher" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.bruteforce matching with sift decriptors and ratio test" />
       </list>
     </recent_temporary>
   </component>
@@ -343,18 +645,19 @@
       <workItem from="1552254018735" duration="158000" />
       <workItem from="1552782185247" duration="6187000" />
       <workItem from="1553045599547" duration="3293000" />
+      <workItem from="1553133071115" duration="4194000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50544000" />
+    <option name="totallyTimeSpent" value="54738000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50139666" side_tool="true" weight="0.14285715" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49860334" visible="true" weight="0.11727079" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49860334" visible="true" weight="0.16442953" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -364,14 +667,14 @@
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49946696" weight="0.22426869" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.49946696" visible="true" weight="0.22379604" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="right" id="Database" order="0" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="SciView" order="2" weight="0.32942432" />
+      <window_info anchor="right" id="SciView" order="2" weight="0.32885906" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
     </layout>
@@ -429,23 +732,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/healthy/healthy1249.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthy/healthy1250.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthy/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="80">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthy/healthy2884.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthy/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthy/healthyid1634.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rename.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/IRIS.py">
+    <entry file="file://$PROJECT_DIR$/memorybypass.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="119" column="37" selection-start-line="119" selection-start-column="37" selection-end-line="119" selection-end-column="37" />
+        <state relative-caret-position="-480">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
-            <element signature="e#2286#2546#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IRIS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="473" column="33" selection-start-line="473" selection-start-column="33" selection-end-line="473" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+            <element signature="e#4837#7028#0" />
+            <element signature="e#7061#9570#0" />
+            <element signature="e#9604#12346#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filtering.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hough_circles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editingphotos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
