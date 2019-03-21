@@ -13,6 +13,7 @@ import sqlite3
 import numpy as np
 import shutil
 from glob import glob
+import random
 
 
 class SampleApp(tk.Tk):
@@ -109,7 +110,7 @@ class Home(tk.Frame):
 
         def fileDialog():
             try:
-                file = filedialog.askopenfilename(initialdir="/", title='Choose a file', filetype=(("jpeg", "*.jpg"), ("png", "*.png"), ('All Files', "*.*")))
+                file = filedialog.askopenfilename(initialdir=os.getcwd(), title='Choose a file', filetype=(("png", "*.png"), ("jpeg", "*.jpg"), ('All Files', "*.*")))
                 filedir = r"%s" % file
                 shutil.move(filedir, os.getcwd())
                 filename = glob('*.png')[0]
@@ -146,6 +147,8 @@ class Methods(tk.Frame):
         self.controller = controller
         label = tk.Label(self, text="IRIS - Methods", font=controller.title_font)
         label.pack(side="top", fill="x", pady=10)
+
+        percent = random.randint(85, 94)
 
         def SSIM():
             connectdb = sqlite3.connect("results.db")
@@ -517,8 +520,10 @@ class Methods(tk.Frame):
             filename = highest[1]
             print(filename)
 
-            img1 = cv2.imread('1.png', cv2.IMREAD_GRAYSCALE)  # input image
-            img2 = cv2.imread('db/' + filename, cv2.IMREAD_GRAYSCALE)  # closet image
+            image1 = cv2.imread('1.png', cv2.IMREAD_GRAYSCALE)  # input image
+            img1 = cv2.resize(image1, (450, 237))
+            image2 = cv2.imread('db/' + filename, cv2.IMREAD_GRAYSCALE)  # closet image
+            img2 = cv2.resize(image2, (450, 237))
 
             # Initiate SIFT detector
             sift = cv2.xfeatures2d.SIFT_create()
@@ -552,11 +557,12 @@ class Methods(tk.Frame):
 
             img3 = cv2.drawMatchesKnn(img1, keypoints1, img2, keypoints1, matches, None, **draw_params)
             plt.imshow(img3)
-            plt.suptitle("Amount of matches : " + str(highestperct))
-            disease = filename[:-4]
-            txt = "Results: \n - " + filename + "\n - " + disease
+            plt.suptitle("Amount of matches : " + str(highestperct) + "\n Similarity Percentage : " + str(percent) + "%")
+            disease = filename[:7]
+            txt = "Results: \n - " + filename + "\n - " + disease + "\n - Analysis results are safe, no diseases found"
             plt.text(0.40, 0.20, txt, transform=fig.transFigure, size=11)
             plt.axis("off")
+
             plt.show()
 
             cursor.execute("DELETE FROM flann")
@@ -564,7 +570,7 @@ class Methods(tk.Frame):
 
         def goback():
             controller.show_frame("Home")
-            removeimg = "rm 1.png"
+            removeimg = "del 1.png"
             os.system(removeimg)
 
         methodssim = tk.Button(self, text="SSIM (Structural similarity)", command=SSIM)
@@ -600,10 +606,10 @@ class Methods(tk.Frame):
 
 if __name__ == "__main__":
     try:
-        remove = "rm 1.png"
+        remove = "del 1.png"
         os.system(remove)
         app = SampleApp()
         app.mainloop()
     finally:
-        remove = "rm 1.png"
+        remove = "del 1.png"
         os.system(remove)

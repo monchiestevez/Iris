@@ -1,5 +1,5 @@
 from matplotlib import pyplot as plt
-import matplotlib.gridspec as gridspec
+from matplotlib import gridspec
 
 
 def plot_images_grid(images, height, width):
