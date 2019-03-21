@@ -1,196 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36bf333e-46aa-4ebe-b6c3-bc2834873bf5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/healthyid723.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IRIS.py" beforeDir="false" afterPath="$PROJECT_DIR$/IRIS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/allergies1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts101.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts102.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts103.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts104.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts105.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts106.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts107.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts108.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts111.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts112.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts113.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts114.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts115.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts117.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts118.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts119.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts120.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts121.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts122.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts123.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts124.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts125.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts126.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts127.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts129.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts130.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts131.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts132.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts133.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts134.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts135.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts136.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts137.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts138.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts139.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts140.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts141.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts142.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts143.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts145.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts146.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts147.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts148.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts149.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts151.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts152.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts153.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts154.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts155.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts156.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts157.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts158.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts159.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts160.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts161.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts162.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts163.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts164.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts165.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts166.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts167.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts168.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts169.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts170.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts27.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts33.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts35.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts37.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts38.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts39.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts41.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts42.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts43.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts45.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts46.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts47.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts49.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts51.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts52.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts53.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts54.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts55.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts56.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts58.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts59.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts61.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts62.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts63.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts65.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts66.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts67.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts68.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts69.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts70.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts71.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts73.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts74.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts75.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts77.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts78.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts79.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts80.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts81.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts82.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts83.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts84.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts85.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts86.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts87.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts88.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts89.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts90.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts91.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts92.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts93.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts94.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts95.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts97.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts98.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cataracts99.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/conjunctitivits1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/conjunctitivits10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/conjunctitivits13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/conjunctitivits14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/conjunctitivits2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/conjunctitivits3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/conjunctitivits4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/conjunctitivits6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/conjunctitivits7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/conjunctitivits8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/conjunctitivits9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cornealulcer1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/glaucoma1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/glaucoma2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/glaucoma3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/glaucoma4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/glaucoma5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/glaucoma6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/glaucoma7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/glaucoma8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/editingphotos.py" beforeDir="false" afterPath="$PROJECT_DIR$/editingphotos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results.db" beforeDir="false" afterPath="$PROJECT_DIR$/results.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualization.py" beforeDir="false" afterPath="$PROJECT_DIR$/visualization.py" afterDir="false" />
-    </list>
+    <list default="true" id="36bf333e-46aa-4ebe-b6c3-bc2834873bf5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,11 +51,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IRIS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="112" column="63" selection-start-line="112" selection-start-column="63" selection-end-line="112" selection-end-column="63" />
+            <state relative-caret-position="317">
+              <caret line="120" column="28" selection-start-line="120" selection-start-column="28" selection-end-line="120" selection-end-column="28" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
                 <element signature="e#375#1690#0" />
@@ -257,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
@@ -598,12 +409,12 @@
       <workItem from="1552254018735" duration="158000" />
       <workItem from="1552782185247" duration="6187000" />
       <workItem from="1553045599547" duration="3293000" />
-      <workItem from="1553133071115" duration="7956000" />
+      <workItem from="1553133071115" duration="8203000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58500000" />
+    <option name="totallyTimeSpent" value="58747000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -779,13 +590,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/IRIS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="112" column="63" selection-start-line="112" selection-start-column="63" selection-end-line="112" selection-end-column="63" />
+        <state relative-caret-position="317">
+          <caret line="120" column="28" selection-start-line="120" selection-start-column="28" selection-end-line="120" selection-end-column="28" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
             <element signature="e#375#1690#0" />
@@ -796,6 +604,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
