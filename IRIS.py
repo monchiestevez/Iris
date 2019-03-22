@@ -110,6 +110,8 @@ class Home(tk.Frame):
 
         def fileDialog():
             try:
+                delete = "del 1.png"
+                os.system(delete)
                 file = filedialog.askopenfilename(initialdir=os.getcwd(), title='Choose a file', filetype=(("png", "*.png"), ("jpeg", "*.jpg"), ('All Files', "*.*")))
                 filedir = r"%s" % file
                 shutil.move(filedir, os.getcwd())
@@ -117,6 +119,8 @@ class Home(tk.Frame):
                 print(filename)
                 os.rename(file, "1.png")
             except:
+                delete = "del 1.png"
+                os.system(delete)
                 print("Renaming already existing png file")
                 filename = glob('*.png')[0]
                 os.rename(filename, "1.png")
@@ -497,7 +501,7 @@ class Methods(tk.Frame):
                     # cv.drawMatchesKnn expects list of lists as matches.
 
                     amount = len(good)
-                    print('Comparing input image to ' + image + " using BFSIFT")
+                    print('Comparing input image to ' + image + " using FLANN")
 
                     title = "Comparing"
                     fig = plt.figure(title)
@@ -570,8 +574,6 @@ class Methods(tk.Frame):
 
         def goback():
             controller.show_frame("Home")
-            removeimg = "del 1.png"
-            os.system(removeimg)
 
         methodssim = tk.Button(self, text="SSIM (Structural similarity)", command=SSIM)
         methodssim.pack()

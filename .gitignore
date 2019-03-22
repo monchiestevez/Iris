@@ -50,3 +50,4 @@ fabric.properties
 # .idea/misc.xml 
 # *.ipr 
 *.xml
+.idea/workspace.xml
