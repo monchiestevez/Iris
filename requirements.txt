@@ -1,0 +1,4 @@
+matplotlib
+tkinter
+numpy
+shutil
